@@ -1,7 +1,7 @@
 # This image should be built with $VTTOP as the context dir.
 # For example:
 #   vitess$ docker build -f docker/publish-site/Dockerfile -t vitess/publish-site .
-FROM ruby:2.3
+FROM ruby:2.7.6
 
 # Install apt dependencies.
 RUN apt-get update && \
